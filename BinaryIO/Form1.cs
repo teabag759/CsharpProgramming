@@ -20,7 +20,7 @@ namespace BinaryIO
 
         private void btnWrite_Click(object sender, EventArgs e)
         {
-            FileStream fs = new FileStream(@"C:\fs.bin", FileMode.Create, FileAccess.Write);
+            FileStream fs = new FileStream(@"D:\fs.bin", FileMode.Create, FileAccess.Write);
             BinaryWriter bw = new BinaryWriter(fs);
             bw.Write(tbText.Text);
             fs.Close();
@@ -29,7 +29,7 @@ namespace BinaryIO
         private void btnRead_Click(object sender, EventArgs e)
         {
             tbText.Text = "";
-            FileStream fs = new FileStream(@"C:\fs.bin", FileMode.Open, FileAccess.Read);
+            FileStream fs = new FileStream(@"D:\fs.bin", FileMode.Open, FileAccess.Read);
             BinaryReader br = new BinaryReader(fs); 
             tbText.Text = br.ReadString();
             fs.Close();
