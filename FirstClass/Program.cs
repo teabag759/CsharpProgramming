@@ -8,11 +8,21 @@ namespace FirstClass
 {
     public class Dog
     {
-        protected int eyes, noes, mouse, ears;
-        protected string kinds;
+        protected int eyes, nose, mouth, ears;
+        protected string kind;
+
         public void Bark()
         {
             Console.WriteLine("멍멍");
+        }
+
+        public void PudleInfo()
+        {
+            Console.WriteLine("눈 : {0}", eyes);
+            Console.WriteLine("코 : {0}", nose);
+            Console.WriteLine("입 : {0}", mouth);
+            Console.WriteLine("귀 : {0}", ears);
+            Console.WriteLine("종류 : {0}", kind);
         }
     }
 
@@ -20,26 +30,17 @@ namespace FirstClass
     {
         public Pudle()
         {
-            base.eyes = 2;
-            base.noes = 1;
-            base.mouse = 1;
-            base.ears = 2;
-            base.kinds = "푸들";
+            eyes = 2;
+            nose = 1;
+            mouth = 1;
+            ears = 2;
+            kind = "푸들";
         }
     }
 
-    public void PudleInfo()
-    {
-        Console.WriteLine("눈 : {0}", base.eyes);
-        Console.WriteLine("코 : {0}", base.noes);
-        Console.WriteLine("입 : {0}", base.mouse);
-        Console.WriteLine("귀 : {0}", base.ears);
-        Console.WriteLine("종류 : {0}", base.kinds);
-    }
-
     class Program
-    { 
-        static void Main(string[] args) 
+    {
+        static void Main(string[] args)
         {
             Pudle pd = new Pudle();
             pd.PudleInfo();
