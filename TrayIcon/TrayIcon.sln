@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrayIcon", "TrayIcon\TrayIcon.csproj", "{2A325D43-39C0-41F9-BE8B-4B1CD0CE4801}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A325D43-39C0-41F9-BE8B-4B1CD0CE4801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A325D43-39C0-41F9-BE8B-4B1CD0CE4801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A325D43-39C0-41F9-BE8B-4B1CD0CE4801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A325D43-39C0-41F9-BE8B-4B1CD0CE4801}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B60DEFDD-AF47-4B94-A836-8FAC569AD501}
+	EndGlobalSection
+EndGlobal
