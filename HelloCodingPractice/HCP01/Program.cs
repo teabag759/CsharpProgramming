@@ -8,9 +8,8 @@ namespace HCP01
         {
             // 01
             Console.Write("무엇이 무엇이");
-
             Console.WriteLine("문제일까?");
-            Console.Write(" \\" ");
+            Console.Write(" \" ");
         }
     }
 }
