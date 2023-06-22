@@ -39,7 +39,25 @@ namespace HCP04
 
 
             // 심화 4-1
-            
+            int number = 2;
+            number = number * 3;
+            number = number - 4;
+            number = number % 2;
+
+            Console.WriteLine(number);
+
+            // 4-2
+            int inPouch = 10;
+            int Acoins, Ucoins = 0;
+
+            Acoins = inPouch / 2 - 1;
+            Ucoins = (inPouch - Acoins) / 2 + 2;
+            inPouch = inPouch - Acoins - Ucoins;
+
+            Console.WriteLine(Acoins);
+            Console.WriteLine(Ucoins);
+            Console.WriteLine(inPouch);
+
         }
     }
 }
