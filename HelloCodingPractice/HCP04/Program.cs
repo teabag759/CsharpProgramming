@@ -54,10 +54,11 @@ namespace HCP04
             Ucoins = (inPouch - Acoins) / 2 + 2;
             inPouch = inPouch - Acoins - Ucoins;
 
-            Console.WriteLine(Acoins);
-            Console.WriteLine(Ucoins);
-            Console.WriteLine(inPouch);
+            Console.WriteLine("아람이가 가져간 동전의 수: " + Acoins);
+            Console.WriteLine("우람이가 가져간 동전의 수: " + Ucoins);
+            Console.WriteLine("주머니의 남은 동전의 수: " + inPouch);
 
+            Console.ReadLine();
         }
     }
 }
