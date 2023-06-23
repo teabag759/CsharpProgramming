@@ -39,7 +39,26 @@ namespace HCP04
 
 
             // 심화 4-1
-            
+            int number = 2;
+            number = number * 3;
+            number = number - 4;
+            number = number % 2;
+
+            Console.WriteLine(number);
+
+            // 4-2
+            int inPouch = 10;
+            int Acoins, Ucoins = 0;
+
+            Acoins = inPouch / 2 - 1;
+            Ucoins = (inPouch - Acoins) / 2 + 2;
+            inPouch = inPouch - Acoins - Ucoins;
+
+            Console.WriteLine("아람이가 가져간 동전의 수: " + Acoins);
+            Console.WriteLine("우람이가 가져간 동전의 수: " + Ucoins);
+            Console.WriteLine("주머니의 남은 동전의 수: " + inPouch);
+
+            Console.ReadLine();
         }
     }
 }

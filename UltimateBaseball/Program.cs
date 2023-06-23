@@ -50,8 +50,6 @@ namespace UltimateBaseball
             Console.WriteLine(guess2);
             Console.WriteLine(guess3);
 
-
-
         }
     }
 }
