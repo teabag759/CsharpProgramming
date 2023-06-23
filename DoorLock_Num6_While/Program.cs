@@ -10,9 +10,7 @@ namespace DoorLock_Num6_While
             int[] userInput = new int[6];
 
 
-            while (userInput[0] != passcodeNumbers[0] || userInput[1] != passcodeNumbers[1]
-                || userInput[2] != passcodeNumbers[2] || userInput[3] != passcodeNumbers[3]
-                || userInput[4] != passcodeNumbers[4] || userInput[5] != passcodeNumbers[5])
+            while (true)
             { 
                 Console.WriteLine("number1");
                 userInput[0] = int.Parse(Console.ReadLine());
@@ -34,6 +32,7 @@ namespace DoorLock_Num6_While
                     && userInput[4] == passcodeNumbers[4] && userInput[5] == passcodeNumbers[5])
                 {
                     Console.WriteLine("문이 열렸습니다.");
+                    break;
                 }
                 else { Console.WriteLine("비밀번호가 틀렸습니다."); }
             }
