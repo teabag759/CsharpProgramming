@@ -6,7 +6,9 @@ namespace Gugudan
     {
         static void Main(string[] args)
         {
-            for (int i = 2; i < 10; i++) 
+            
+            for (int i = 2; i < 10; i++)
+            // for (int i = 2; i < 10; i = i + 2)   // 짝수 단
             {
                 Console.Write(i); 
                 Console.WriteLine("단");
